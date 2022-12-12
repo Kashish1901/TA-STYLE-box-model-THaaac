@@ -1,15 +1,54 @@
-<!---
-### Create a page according to the layout shown below
-
-![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
-
-#### Problems for exercise 2 in the layout
-
-- Each parent container has width of 600px and border of 1px;
-- Each children box has width 180px and height 100px as well as margin of 10px;
-- Each child box which is having border has border-width 1px.
-- Note in the first container the boxes do not have any border.
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
---->
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>assigment 3</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>The Box Model, Box-sizing & box-shadow</h1>
+           
+        </header>
+        <main>
+            <section>
+                <h2>Exercise 1</h2>
+                <div class="box">box</div>
+                <div class="center">
+                    
+                  <span class="circle"></span><span>Content</span>
+                   <span class="circle2"></span> <span>Padding</span>
+                   <span class="circle3"></span> <span>Border</span>
+                    <span class="circle4"></span><span>Margin</span>
+                </div>
+            </section>
+           
+            <section> <h2>Exercise 2</h2>
+                <h3>no border on the boxes</h3>
+            <div class="parent-container">
+             <span class="child">span</span>
+            <span class="child">span</span>
+            <span class="child">span</span>
+            </div>
+            </section>
+            
+            <section>
+                <h3>1px border on these boxes</h3>
+            </section>
+            <div class="parent-container">
+                <span class="with-border">span</span>
+                <span class="with-border">span</span>
+                <span class="with-border">span</span>   
+            </div>
+            
+            <section>
+                <h3>1px border on these boxes but they are in same line.</h3>
+            </section>
+            <div class="parent-container">
+                <span class="same">span</span>
+                <span class="same">span</span>
+                <span class="same">span</span>    
+            </div>
+        </main>
+    </body>
+</html>
