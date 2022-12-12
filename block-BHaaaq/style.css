@@ -75,13 +75,17 @@ span{
     box-shadow: -3px -3px -4px -2px;
 }
 .dashed{
-    border: 2px dashed black;
+    border: 5px dashed black;
 }
 .dotted{
-    border: 2px dotted black;
+    border: 5px dotted black;
 }
-.model{
+.no-border{
+    border: none;
+}
+p{
     background-color: brown;
+    color: white;
     height: 250px;
     width: 250px;
     padding: 20px;
@@ -89,9 +93,10 @@ span{
     border-left: 10px solid green;
     border-right: 10px solid grey;
     border-bottom: 10px solid yellow;
-    box-shadow: 0 0 0 20px blueviolet;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px ;
-    margin-right: 10px;
+}
+.para-container{
+    background-color: blueviolet;
+    padding: 42px 32px;
+    display: inline-block;
+    margin: 5px;
 }
