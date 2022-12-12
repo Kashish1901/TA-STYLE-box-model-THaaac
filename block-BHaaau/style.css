@@ -46,8 +46,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+	line-height: 1.5;
+}
+hr{
+	width: 500px;
+	border-style: dashed;
+}
 h1{
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     padding: 50px;
 }
@@ -69,6 +76,9 @@ h2{
 	text-align: center;
 	border-radius: 50% ;
 }
+.marker-container{
+	text-align: center;
+}
 span{
 	display: inline-block;
 	text-align: center;
@@ -83,7 +93,8 @@ span{
 	width: 10px;
 	padding: 4px;
 	border-radius: 50%;
-	margin: 0 auto;
+	margin-right: 10px;
+	vertical-align: middle;
 }
 .circle2{
 	display: inline-block;
@@ -92,7 +103,7 @@ span{
 	width: 10px;
 	padding: 4px;
 	border-radius: 50%;
-	margin: 0 auto;
+	vertical-align: middle;
 }
 .circle3{
 	display: inline-block;
@@ -101,7 +112,8 @@ span{
 	width: 10px;
 	padding: 4px;
 	border-radius: 50%;
-	margin: 0 auto;
+	
+	vertical-align: middle;
 }
 .circle4{
 	display: inline-block;
@@ -110,7 +122,12 @@ span{
 	width: 10px;
 	padding: 4px;
 	border-radius: 50%;
-	margin: 0 auto;
+	
+	vertical-align: middle;
+}
+.marker{
+	margin: 0 32px;
+	display: inline-block;
 }
 .exercise2{
 	text-align: center;
